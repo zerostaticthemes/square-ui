@@ -49,10 +49,10 @@ This project is sponsored by:
 
 ## Star History
 
-<a href="https://www.star-history.com/#ln-dev7/square-ui&Date">
+<a href="https://star-history.dera.page/#ln-dev7/square-ui&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ln-dev7/square-ui&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ln-dev7/square-ui&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ln-dev7/square-ui&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=ln-dev7/square-ui&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=ln-dev7/square-ui&type=Date" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=ln-dev7/square-ui&type=Date" />
  </picture>
 </a>
