@@ -20,34 +20,6 @@ function GitHubIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   )
 }
 
-function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor" {...props}>
-      <path d="M9.51762 6.77491L15.3459 0H13.9648L8.90409 5.88256L4.86212 0H0.200195L6.31244 8.89547L0.200195 16H1.58139L6.92562 9.78782L11.1942 16H15.8562L9.51728 6.77491H9.51762ZM7.62588 8.97384L7.00658 8.08805L2.07905 1.03974H4.20049L8.17706 6.72795L8.79636 7.61374L13.9654 15.0075H11.844L7.62588 8.97418V8.97384Z" />
-    </svg>
-  )
-}
-
-function ArrowUpRightIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...props}
-    >
-      <path d="M7 7h10v10" />
-      <path d="M7 17 17 7" />
-    </svg>
-  )
-}
-
 export function Intro() {
   return (
     <>
@@ -66,16 +38,7 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source layouts <br />
-        by{' '}
-        <Link
-          href="https://www.shadcnblocks.com/"
-          target="_blank"
-          className="text-sky-300 relative hover:underline hover:underline-offset-4"
-        >
-          lndev-ui
-          <ArrowUpRightIcon className="size-5 absolute top-0 -right-5" />
-        </Link>
+        20+ Open Source Dashboards for Shadcn UI
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
         Collection of beautifully crafted open-source layouts UI built with
@@ -100,21 +63,5 @@ export function Intro() {
       </div>
       <ProAccessCTA />
     </>
-  )
-}
-
-export function IntroFooter() {
-  return (
-    <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-      Built by{' '}
-      <IconLink
-        href="https://x.com/ln_dev7"
-        icon={XIcon}
-        target="_blank"
-        compact
-      >
-        Leonel Ngoya
-      </IconLink>
-    </p>
   )
 }
