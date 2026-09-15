@@ -1,18 +1,10 @@
 # Square UI
 
-Collection of beautifully crafted open-source layouts UI built with Next.js and shadcn/ui.
+Free, open-source Shadcn UI admin dashboard templates.
 
-## Sponsors
+**Want the Pro collection?** try [Shadcn Dashboard](https://shadcndashboard.com) — 20+ more shadcn admin templates.
 
-This project is sponsored by:
-
-- <a href="https://pro.lndevui.com/" target="_blank">Square UI Pro</a> : Premium UI templates that accelerate your development.
-
-- <a href="https://ui.lndev.me/" target="_blank">lndev/ui</a> : Fine components coded by lndev.
-
-[Become a sponsor](https://lndev.mychariow.shop/prd_3cu1s0)
-
-## Templates
+## Free Shadn UI Admin Dashboard Templates
 
 > **Note:** Templates using Radix UI are located in `templates/`, while templates using Base UI are in `templates-baseui/`.
 
@@ -38,7 +30,35 @@ This project is sponsored by:
 | **Chat**                | Modern AI chat interface with conversation history and intelligent assistant.                                    | [View Demo](https://square-ui-chat.vercel.app)                | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates/chat)                | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates-baseui/chat)             | [Rico](https://x.com/_heyrico)           |
 | **Emails**              | Modern email client interface with inbox, folders, and email details.                                            | [View Demo](https://square-ui-emails.vercel.app)              | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates/emails)              | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates-baseui/emails)              | [Rico](https://x.com/_heyrico)           |
 | **Task Management**     | Simple board interface for managing tasks.                                                                       | [View Demo](https://square-ui-task-management.vercel.app)     | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates/task-management)     | [Source](https://github.com/ln-dev7/square-ui/tree/master/templates-baseui/task-management)     | [Rico](https://x.com/_heyrico)           |
-| **Circle**              | Project management interface inspired by Linear. This application allows tracking of issues, projects and teams. | [View Demo](https://circle.lndev.me)                          | [Source](https://github.com/ln-dev7/circle)                                              | [Source](https://pro.lndevui.com/templates)                                                     | Inspired by Linear                       |
+
+## Pro Shadcn UI Admin Dashboard Templates
+
+These are the [Shadcn Dashboard](https://shadcndashboard.com) Pro templates — commercial license, Radix + Base UI variants, full pages, and lifetime updates.
+
+| Template | Description | Live Demo | Get Pro |
+| --- | --- | --- | --- |
+| **Shadcn Admin** | A premium multi-app admin dashboard with 5 complete applications and 145+ pages. | [View Demo](https://shadcnblocks-admin.vercel.app) | [Get Pro](https://shadcndashboard.com/templates/admin) |
+| **Circle** | A Linear-grade project hub for ambitious teams. | [View Demo](https://square-ui-circle-baseui.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/circle-baseui) |
+| **Nexus** | A Notion-inspired connected workspace with editable pages, teamspaces and AI. | [View Demo](https://square-ui-nexus.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/nexus) |
+| **Sojourn** | An Airbnb-inspired travel marketplace with interactive maps, stays, experiences and services. | [View Demo](https://square-ui-sojourn.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/sojourn) |
+| **Axiom** | A Claude-inspired AI chat workspace with projects, skills and connectors. | [View Demo](https://square-ui-axiom.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/axiom) |
+| **Tribune** | A refined social-conversation client inspired by Threads. | [View Demo](https://square-ui-tribune.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/tribune) |
+| **Mainline** | A polished GitHub-inspired source-hosting and collaboration dashboard. | [View Demo](https://square-ui-mainline.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/mainline) |
+| **Skyport** | A live air-traffic and flight operations dashboard. | [View Demo](https://square-ui-skyport.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/skyport) |
+| **Vault** | A polished file storage and team collaboration hub. | [View Demo](https://square-ui-vault.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/vault) |
+| **Régate** | A yacht regatta and sailing operations console. | [View Demo](https://square-ui-regate.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/regate) |
+| **Atelier** | A producer-grade music studio dashboard with sound built in. | [View Demo](https://square-ui-atelier.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/atelier) |
+| **Cookbook** | A recipe dashboard that earns its place in the kitchen. | [View Demo](https://square-ui-cookbook.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/cookbook) |
+| **Inventory** | A product and orders dashboard built to ship. | [View Demo](https://square-ui-inventory.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/inventory) |
+| **Cellar** | A connoisseur's wine cellar, organized at last. | [View Demo](https://square-ui-cellar.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/cellar) |
+| **Contacts** | A modern contact book that actually keeps up. | [View Demo](https://square-ui-contacts.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/contacts) |
+| **Vellum** | A refined library for rare books and antiquarian collections. | [View Demo](https://square-ui-vellum.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/vellum) |
+| **Maestro** | A chamber-orchestra operations console. | [View Demo](https://square-ui-maestro.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/maestro) |
+| **Media Vault** | A gallery-first media library for visual teams. | [View Demo](https://square-ui-media-vault.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/media-vault) |
+| **Finance Tracker** | A personal finance dashboard you actually want to open. | [View Demo](https://square-ui-finance-tracker.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/finance-tracker) |
+| **Notes App** | A focused, fast note-taking app, polished end-to-end. | [View Demo](https://square-ui-notes.vercel.app/) | [Get Pro](https://shadcndashboard.com/templates/notes) |
+
+[Browse all Pro templates on Shadcn Dashboard →](https://shadcndashboard.com/templates)
 
 ## 🛠️ Technologies
 
@@ -56,3 +76,8 @@ This project is sponsored by:
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ln-dev7/square-ui&type=Date" />
  </picture>
 </a>
+
+## Powered by Shadcnblocks.com
+
+Also see [Shadcnblocks](https://www.shadcnblocks.com/) for 2000+ shadcn/ui blocks and components.
+

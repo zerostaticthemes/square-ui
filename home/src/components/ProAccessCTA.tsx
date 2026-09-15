@@ -73,8 +73,7 @@ const PRO_BENEFITS = [
   'Direct support for ln-dev open source initiatives',
 ]
 
-const BUY_URL = 'https://lndev.mychariow.shop/prd_ac6igu'
-const PRICE = '$169'
+const BUY_URL = 'https://shadcndashboard.com'
 
 export function ProAccessCTA() {
   const [isOpen, setIsOpen] = useState(false)
@@ -102,11 +101,12 @@ export function ProAccessCTA() {
     <>
       <div className="mt-6 flex flex-col items-center gap-3 lg:items-start">
         <Link
-          href="https://pro.lndevui.com/pricing"
+          href={BUY_URL}
           target="_blank"
+          rel="noopener noreferrer"
           className="relative isolate inline-flex items-center justify-center gap-2 rounded-full border border-amber-500/80 bg-amber-400 px-4 py-2 text-sm font-semibold text-amber-950 shadow transition-colors before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-amber-400 before:shadow after:absolute after:inset-0 after:-z-10 after:rounded-full hover:after:bg-white/25"
         >
-          <span>Square UI Pro : Get Full Access • {PRICE}</span>
+          <span>More templates on Shadcn Dashboard</span>
           <ArrowUpRightIcon className="size-4" />
         </Link>
         <button
@@ -114,7 +114,7 @@ export function ProAccessCTA() {
           onClick={() => setIsOpen(true)}
           className="text-xs font-medium text-amber-300 underline decoration-amber-400/60 underline-offset-4 transition-colors hover:text-amber-200 hover:decoration-amber-300 lg:ml-4"
         >
-          Why Square UI Pro?
+          Why Shadcn Dashboard?
         </button>
       </div>
 
@@ -140,18 +140,18 @@ export function ProAccessCTA() {
               <CloseIcon className="size-4" />
             </button>
             <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/40 bg-amber-500/10 px-2.5 py-1 text-xs font-medium text-amber-300">
-              Square UI Pro
+              Shadcn Dashboard
             </div>
             <h2
               id="pro-modal-title"
               className="mt-3 font-display text-2xl font-light text-white"
             >
-              Why upgrade to Pro?
+              Why Shadcn Dashboard?
             </h2>
             <p className="mt-2 text-sm/6 text-gray-400">
-              The free pack gets you started. Pro is what you reach for when
-              you&apos;re shipping real client work — more templates, both
-              variants, full pages, and a license to ship.
+              The free pack gets you started. Shadcn Dashboard is what you
+              reach for when you&apos;re shipping real client work — more
+              templates, both variants, full pages, and a license to ship.
             </p>
             <ul className="mt-5 space-y-2.5">
               {PRO_BENEFITS.map((benefit) => (
@@ -171,7 +171,7 @@ export function ProAccessCTA() {
               onClick={() => setIsOpen(false)}
               className="relative isolate mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full border border-amber-500/80 bg-amber-400 px-4 py-2.5 text-sm font-semibold text-amber-950 shadow transition-colors before:absolute before:inset-0 before:-z-10 before:rounded-full before:bg-amber-400 before:shadow after:absolute after:inset-0 after:-z-10 after:rounded-full hover:after:bg-white/25"
             >
-              <span>Get Full Access — {PRICE}</span>
+              <span>Browse Shadcn Dashboard</span>
               <ArrowUpRightIcon className="size-4" />
             </Link>
             <p className="mt-3 text-center text-xs text-gray-500">
@@ -179,7 +179,7 @@ export function ProAccessCTA() {
             </p>
             <div className="mt-4 text-center">
               <Link
-                href="https://pro.lndevui.com/templates"
+                href={BUY_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

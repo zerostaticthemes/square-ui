@@ -84,7 +84,7 @@ export function PremiumBanner() {
       <div className="lg:ml-96 lg:flex lg:w-full lg:justify-end lg:pl-32">
         <div className="mx-auto max-w-lg lg:mx-0 lg:w-0 lg:max-w-xl lg:flex-auto">
           <Link
-            href="https://pro.lndevui.com/templates"
+            href="https://shadcndashboard.com"
             target="_blank"
             rel="noopener noreferrer"
             className="group block rounded-2xl border border-gray-200 bg-linear-to-br from-gray-50 to-white p-5 transition-colors hover:border-gray-300 hover:bg-gray-50 dark:border-white/10 dark:from-white/5 dark:to-transparent dark:hover:border-white/20 dark:hover:bg-white/5"
@@ -99,7 +99,7 @@ export function PremiumBanner() {
             <p className="mt-1 text-xs text-gray-600 dark:text-white/60">
               Get the full collection on{' '}
               <span className="text-gray-900 underline decoration-dotted underline-offset-2 group-hover:decoration-solid dark:text-white">
-                pro.lndevui.com/templates
+                shadcndashboard.com
               </span>
               <span aria-hidden="true" className="ml-1 inline-block transition-transform group-hover:translate-x-0.5">→</span>
             </p>
