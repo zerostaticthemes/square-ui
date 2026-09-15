@@ -7,6 +7,7 @@ import Script from 'next/script'
 import { Providers } from '@/app/providers'
 import Garlands from '@/components/Garlands'
 import { Analytics } from "@vercel/analytics/next"
+import { PlausibleAnalytics } from '@/components/PlausibleAnalytics'
 
 import '@/styles/tailwind.css'
 
@@ -172,6 +173,7 @@ export default function RootLayout({
         <Providers>{children}</Providers>
         <Garlands />
         <Analytics />
+        <PlausibleAnalytics />
       </body>
     </html>
   )
