@@ -1,10 +1,12 @@
 # Square UI
 
-Free, open-source Shadcn UI admin dashboard templates.
+Square UI is a collection of free, open-source admin dashboard templates for [shadcn/ui](https://ui.shadcn.com/). The layouts are built with Next.js and Tailwind CSS, and each one is a complete starting point you can clone, copy, and ship — dashboards, email, chat, calendars, file managers, and more.
 
-**Want the Pro collection?** try [Shadcn Dashboard](https://shadcndashboard.com) — 20+ more shadcn admin templates.
+Browse the live catalog at [square.lndevui.com](https://square.lndevui.com).
 
-## Free Shadn UI Admin Dashboard Templates
+**Want the Pro collection?** [Shadcn Dashboard](https://shadcndashboard.com) has 20+ more premium shadcn admin templates — commercial license, full pages, and lifetime updates.
+
+## Free Templates
 
 > **Note:** Templates using Radix UI are located in `templates/`, while templates using Base UI are in `templates-baseui/`.
 
@@ -31,7 +33,7 @@ Free, open-source Shadcn UI admin dashboard templates.
 | **Emails**              | Modern email client interface with inbox, folders, and email details.                                            | [View Demo](https://square-ui-emails.vercel.app)              | [Source](https://github.com/zerostaticthemes/square-ui/tree/master/templates/emails)              | [Source](https://github.com/zerostaticthemes/square-ui/tree/master/templates-baseui/emails)              | [Rico](https://x.com/_heyrico)           |
 | **Task Management**     | Simple board interface for managing tasks.                                                                       | [View Demo](https://square-ui-task-management.vercel.app)     | [Source](https://github.com/zerostaticthemes/square-ui/tree/master/templates/task-management)     | [Source](https://github.com/zerostaticthemes/square-ui/tree/master/templates-baseui/task-management)     | [Rico](https://x.com/_heyrico)           |
 
-## Pro Shadcn UI Admin Dashboard Templates
+## Pro Templates
 
 These are the [Shadcn Dashboard](https://shadcndashboard.com) Pro templates — commercial license, Radix + Base UI variants, full pages, and lifetime updates.
 
