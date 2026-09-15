@@ -159,6 +159,9 @@ export default function RootLayout({
       className={clsx('h-full antialiased', inter.variable, monaSans.variable)}
       suppressHydrationWarning
     >
+      <head>
+        <PlausibleAnalytics />
+      </head>
       <body className="flex min-h-full flex-col bg-white dark:bg-gray-950">
         <Script
           id="ld-website"
@@ -173,7 +176,6 @@ export default function RootLayout({
         <Providers>{children}</Providers>
         <Garlands />
         <Analytics />
-        <PlausibleAnalytics />
       </body>
     </html>
   )

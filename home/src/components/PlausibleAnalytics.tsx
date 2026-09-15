@@ -1,21 +1,29 @@
-import Script from 'next/script'
+import { headers } from 'next/headers'
 
-const PLAUSIBLE_HOST = 'square.lndevui.com'
+const PLAUSIBLE_HOSTS = new Set(['square.lndevui.com'])
 const PLAUSIBLE_SRC = 'https://plausible.io/js/pa-cYm3KI-hE31MOttip3r_q.js'
 
-export function PlausibleAnalytics() {
+export async function PlausibleAnalytics() {
+  const headerStore = await headers()
+  const host = (headerStore.get('x-forwarded-host') ?? headerStore.get('host') ?? '')
+    .split(',')[0]
+    .trim()
+    .split(':')[0]
+
+  if (!PLAUSIBLE_HOSTS.has(host)) {
+    return null
+  }
+
   return (
-    <Script id="plausible-analytics" strategy="afterInteractive">
-      {`
-        if (location.hostname !== ${JSON.stringify(PLAUSIBLE_HOST)}) return;
-        window.plausible = window.plausible || function () { (plausible.q = plausible.q || []).push(arguments) };
-        plausible.init = plausible.init || function (i) { plausible.o = i || {} };
-        var s = document.createElement('script');
-        s.async = true;
-        s.src = ${JSON.stringify(PLAUSIBLE_SRC)};
-        s.onload = function () { plausible.init(); };
-        document.head.appendChild(s);
-      `}
-    </Script>
+    <>
+      {/* Privacy-friendly analytics by Plausible */}
+      <script async src={PLAUSIBLE_SRC} />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()`,
+        }}
+      />
+    </>
   )
 }
